@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố cục trang web sử dụng HTML5 Semantic Tags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Container bao bọc toàn bộ trang web -->
+    <div id="main">
+
+        <!-- 1. Thẻ <header> thay cho <div id="head"> -->
+        <header id="head">
+            <h2>HEAD / LOGO & BANNER</h2>
+        </header>
+
+        <!-- 2. Thẻ <nav> thay cho <div id="head-link"> -->
+        <nav id="head-link">
+            <a href="#">Home</a> | 
+            <a href="#">Students</a> | 
+            <a href="#">Course</a> | 
+            <a href="#">About Us</a> | 
+            <a href="#">Contact</a>
+        </nav>
+
+        <!-- 3. Thẻ <aside> thay cho <div id="left"> -->
+        <aside id="left">
+            <h3>LEFT MENU</h3>
+            <ul>
+                <li><a href="#">Liên kết 1</a></li>
+                <li><a href="#">Liên kết 2</a></li>
+                <li><a href="#">Liên kết 3</a></li>
+            </ul>
+        </aside>
+
+        <!-- 4. Thẻ <section> & <article> thay cho <div id="content"> -->
+        <section id="content">
+            <article>
+                <h3>MAIN CONTENT</h3>
+                <p><strong>Hot News:</strong> Sử dụng các thẻ ngữ nghĩa HTML5 giúp trình duyệt và công cụ tìm kiếm (SEO) hiểu rõ cấu trúc trang web hơn.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </article>
+        </section>
+
+        <!-- 5. Thẻ <aside> thay cho <div id="right"> -->
+        <aside id="right">
+            <h3>RIGHT SIDEBAR</h3>
+            <p>Lịch, biểu đồ, bản đồ hoặc thông tin phụ trợ.</p>
+        </aside>
+
+        <!-- Xử lý dọn dẹp luồng float -->
+        <div class="clear"></div>
+
+        <!-- 6. Thẻ <footer> thay cho <div id="footer"> -->
+        <footer id="footer">
+            <p>&copy; 2026 - Bản quyền thuộc về Trang Web Của Bạn | <a href="#">Điều khoản</a> | <a href="#">Bảo mật</a></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
